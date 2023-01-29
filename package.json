@@ -2,7 +2,7 @@
 	"name": "xcode-presentation-dark",
 	"displayName": "xcode-presentation-dark",
 	"description": "Xcode's \"Presentation Dark\" port to VSCode",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "NagyBotond",
 	"repository": {
 		"url": "https://github.com/westernwontons/xcode-presentation-dark"
