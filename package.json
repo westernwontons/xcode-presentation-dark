@@ -1,21 +1,24 @@
 {
-  "name": "xcode-presentation-dark",
-  "displayName": "xcode-presentation-dark",
-  "description": "Xcode's \"Presentation Dark\" port to VSCode",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "xcode-presentation-dark-theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/xcode-presentation-dark-theme-color-theme.json"
-      }
-    ]
-  }
+	"name": "xcode-presentation-dark",
+	"displayName": "xcode-presentation-dark",
+	"description": "Xcode's \"Presentation Dark\" port to VSCode",
+	"version": "0.0.1",
+	"repository": {
+		"url": "https://github.com/westernwontons/xcode-presentation-dark"
+	},
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "xcode-presentation-dark-theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/xcode-presentation-dark-theme-color-theme.json"
+			}
+		]
+	}
 }
