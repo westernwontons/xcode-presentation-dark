@@ -18,7 +18,7 @@
 		"diffEditor.removedTextBackground": "#f21b3f20",
 		"dropdown.background": "#2b303b",
 		"dropdown.border": "#363c49",
-		"editor.background": "#202025",
+		"editor.background": "#151820",
 		"editor.findMatchBackground": "#f39d12d7",
 		"editor.findMatchHighlightBackground": "#59b8b377",
 		"editor.foreground": "#d5ced9",
@@ -1031,7 +1031,6 @@
 				"foreground": "#F7439D"
 			}
 		},
-		// START
 		{
 			"scope": [
 				"keyword",
@@ -1153,11 +1152,60 @@
 			"settings": {
 				"foreground": "#F39C12"
 			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.arguments",
+				"punctuation.definition.dict",
+				"constant.character.format.placeholder.other"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"scope": "support.type.exception.python",
+			"settings": {
+				"foreground": "#F39C13"
+			}
+		},
+		{
+			"scope": "support.type.primitive",
+			"settings": {
+				"foreground": "#D3D3D3D3"
+			}
+		},
+		{
+			"scope": "variable.language.this.ts",
+			"settings": {
+				"foreground": "#F39C13"
+			}
 		}
 	],
+	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"property": "#3EBDE0",
-		"*.typeHint": "#B6FDEF",
-		"function": "#B6FDEF"
+		"rules": {
+			"*.mutable": {
+				"underline": true
+			},
+			"variable": "#ffffff",
+			"parameter": "#ffffff",
+			"property": "#63D7C0",
+			"enum": "#EE5D43",
+			"enumMember": "#C74DED",
+			"struct": "#B6FDEF",
+			"function": "#BC80FF",
+			"method": "#BC80FF",
+			"magicFunction": "#FFE97F",
+			"*.trait": "#EE5D43",
+			"*.callable": "#75E1FF",
+			"*.typeHint": "#B6FDEF",
+			"unresolvedReference": "#d3d3d3d3",
+			"selfParameter": "#F7439D",
+			"clsParameter": "#C74DED",
+			"namespace": "#D2CBD6",
+			"boolean": "#F7439D",
+			"module": "#ffffff"
+		}
 	}
 }
