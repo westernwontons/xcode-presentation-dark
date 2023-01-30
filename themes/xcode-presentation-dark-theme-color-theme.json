@@ -20,7 +20,7 @@
 		"dropdown.border": "#363c49",
 		"editor.background": "#151820",
 		"editor.findMatchBackground": "#f39d12d7",
-		"editor.findMatchHighlightBackground": "#59b8b377",
+		"editor.findMatchHighlightBackground": "#b6fdef",
 		"editor.foreground": "#d5ced9",
 		"editor.hoverHighlightBackground": "#373941",
 		"editor.lineHighlightBackground": "#252a34",
@@ -43,7 +43,8 @@
 		"editorGutter.deletedBackground": "#fc644dbb",
 		"editorGutter.modifiedBackground": "#5bc0ebbb",
 		"editorHoverWidget.background": "#151820",
-		"editorHoverWidget.border": "#00e8c5cc",
+		"editorHoverWidget.border": "#b6fdef",
+		"editorHoverWidget.foreground": "#ffffff",
 		"editorIndentGuide.activeBackground": "#585c66",
 		"editorIndentGuide.background": "#333844",
 		"editorInfo.foreground": "#00000000",
@@ -238,6 +239,7 @@
 				"entity.other.attribute-name",
 				"meta.at-rule.extend",
 				"entity.name.function",
+				"entity.other.inherited-class",
 				"entity.other.keyframe-offset.css",
 				"text.html.markdown string.quoted",
 				"meta.function-call.generic.python",
@@ -331,7 +333,6 @@
 		{
 			"scope": ["entity.other.inherited-class"],
 			"settings": {
-				"foreground": "#BC80FF",
 				"fontStyle": "underline"
 			}
 		},
@@ -455,6 +456,7 @@
 		},
 		{
 			"scope": [
+				"entity.other.inherited-class",
 				"variable.parameter.function-call",
 				"entity.name.function.decorator.python",
 				"entity.name.type.result"
@@ -647,6 +649,15 @@
 			"scope": "variable.language.this.ts",
 			"settings": {
 				"foreground": "#F39C13"
+			}
+		},
+		{
+			"scope": [
+				"meta.class.inheritance.python",
+				"entity.other.inherited-class.python"
+			],
+			"settings": {
+				"foreground": "#DABBFF"
 			}
 		}
 	],
