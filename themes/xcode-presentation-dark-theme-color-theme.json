@@ -10,7 +10,7 @@
 		"badge.background": "#00b0ff",
 		"badge.foreground": "#20232b",
 		"button.background": "#5e5e5e",
-		"button.hoverBackground": "#07d4b6cc",
+		"button.hoverBackground": "#c74ded",
 		"debugExceptionWidget.background": "#ff9f2e60",
 		"debugExceptionWidget.border": "#ff9f2e60",
 		"debugToolBar.background": "#20232a",
@@ -345,7 +345,7 @@
 		//"extensionBadge.remoteForeground": "#20232b",
 		//"extensionButton.background": "#5e5e5e",
 		//"extensionButton.foreground": "#ffffff",
-		//"extensionButton.hoverBackground": "#07d4b6cc",
+		//"extensionButton.hoverBackground": "#c74ded",
 		//"extensionButton.prominentForeground": "#ffffff",
 		//"extensionButton.separator": "#ffffff66",
 		//"extensionIcon.preReleaseForeground": "#1d9271",
@@ -1262,6 +1262,58 @@
 		},
 		{
 			"scope": [
+				"support.type.property-name.json.comments",
+				"constant.character.format.placeholder.other",
+				"punctuation.definition.arguments",
+				"punctuation.definition.dict",
+				"punctuation.parenthesis.begin",
+				"punctuation.parenthesis.end"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"scope": "support.type.exception.python",
+			"settings": {
+				"foreground": "#F39C13"
+			}
+		},
+		{
+			"scope": "support.type.primitive",
+			"settings": {
+				"foreground": "#D3D3D3D3"
+			}
+		},
+		{
+			"scope": "variable.language.this.ts",
+			"settings": {
+				"foreground": "#F39C13"
+			}
+		},
+		{
+			"scope": [
+				"meta.class.inheritance.python",
+				"entity.other.inherited-class.python"
+			],
+			"settings": {
+				"foreground": "#DABBFF"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.json",
+				"punctuation.definition.string.end.json",
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python"
+			],
+			"settings": {
+				"foreground": "#FF5F64"
+			}
+		},
+		{
+			"scope": [
+				"meta.function.parameters.python",
 				"support.type.property-name.json.comments",
 				"constant.character.format.placeholder.other",
 				"punctuation.definition.arguments",
