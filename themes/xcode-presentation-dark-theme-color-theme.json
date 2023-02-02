@@ -124,7 +124,7 @@
 		"statusBar.background": "#202025",
 		"statusBar.border": "#000000",
 		"statusBar.debuggingBackground": "#151820",
-		"statusBar.noFolderBackground": "#151820",
+		"statusBar.noFolderBackground": "#383838",
 		"statusBarItem.activeBackground": "#00e8c5cc",
 		"statusBarItem.hoverBackground": "#07d4b5b0",
 		"statusBarItem.prominentBackground": "#07d4b5b0",
@@ -1402,6 +1402,57 @@
 			],
 			"settings": {
 				"foreground": "#DABBFF"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.json",
+				"punctuation.definition.string.end.json",
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python",
+				"keyword.operator.arithmetic.python"
+			],
+			"settings": {
+				"foreground": "#FF5F64"
+			}
+		},
+		{
+			"scope": [
+				"meta.function.parameters.python",
+				"support.type.property-name.json.comments",
+				"constant.character.format.placeholder.other",
+				"punctuation.definition.arguments",
+				"punctuation.definition.dict",
+				"punctuation.parenthesis.begin",
+				"punctuation.parenthesis.end"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"scope": "support.type.primitive",
+			"settings": {
+				"foreground": "#D3D3D3D3"
+			}
+		},
+		{
+			"scope": [
+				"meta.class.inheritance.python",
+				"entity.other.inherited-class.python"
+			],
+			"settings": {
+				"foreground": "#DABBFF"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.unpacking.arguments.python",
+				"keyword.operator.unpacking.parameter.python",
+				"variable.language.this.ts"
+			],
+			"settings": {
+				"foreground": "#F7439D"
 			}
 		},
 		{
