@@ -495,7 +495,7 @@
 		//"panelSectionHeader.background": "#80808033",
 		//"panelTitle.activeForeground": "#e7e7e7",
 		//"peekViewEditorGutter.background": "#1a1c22",
-		//"peekViewEditorStickScroll.background": "#1a1c22",
+		//"peekViewEditorStickyScroll.background": "#1a1c22",
 		//"peekViewResult.fileForeground": "#ffffff",
 		//"peekViewResult.lineForeground": "#bbbbbb",
 		//"peekViewResult.selectionForeground": "#ffffff",
@@ -1594,6 +1594,110 @@
 				"foreground": "#3EBDE0",
 				"fontStyle": "bold"
 			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.json",
+				"punctuation.definition.string.end.json",
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python",
+				"keyword.operator.arithmetic.python",
+				"string.quoted.double.html",
+				"punctuation.definition.string.end.html",
+				"punctuation.definition.string.begin.html",
+				"string.quoted.single.ts",
+				"punctuation.definition.string.begin.ts",
+				"punctuation.definition.string.end.ts"
+			],
+			"settings": {
+				"foreground": "#FF5F64"
+			}
+		},
+		{
+			"scope": [
+				"meta.brace",
+				"meta.function.parameters.python",
+				"support.type.property-name.json.comments",
+				"constant.character.format.placeholder.other",
+				"punctuation.definition.arguments",
+				"punctuation.definition.dict",
+				"punctuation.parenthesis.begin",
+				"punctuation.accessor",
+				"punctuation.parenthesis.end",
+				"keyword.operator.type.annotation.ts",
+				"punctuation.accessor.ts",
+				"punctuation.definition.block.ts",
+				"entity.other.attribute-name.html",
+				"variable.other.readwrite.alias.ts",
+				"keyword.operator.comparison.ts"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"scope": "support.type.primitive",
+			"settings": {
+				"foreground": "#D3D3D3D3"
+			}
+		},
+		{
+			"scope": [
+				"meta.class.inheritance.python",
+				"entity.other.inherited-class.python",
+				"entity.other.ng-binding-name"
+			],
+			"settings": {
+				"foreground": "#DABBFF"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.unpacking.arguments.python",
+				"keyword.operator.unpacking.parameter.python",
+				"variable.language.this.ts",
+				"punctuation.decorator.ts",
+				"keyword.operator.new.ts",
+				"keyword.operator.expression.of.ts",
+				"keyword.operator.optional.ts",
+				"entity.other.ng-binding-name.template.html",
+				"keyword.operator.definiteassignment.ts",
+				"support.type.builtin.ts",
+				"entity.name.tag.html",
+				"meta.type.parameters.ts",
+				"storage.type.ts",
+				"storage.modifier.ts",
+				"keyword.operator.logical.ts",
+				"keyword.operator.expression.keyof.ts"
+			],
+			"settings": {
+				"foreground": "#F7439D"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.interface.ts",
+				"support.type.primitive.ts",
+				"entity.name.type.enum.prisma",
+				"entity.name.type.model.prisma",
+				"entity.name.type.config.prisma"
+			],
+			"settings": {
+				"foreground": "#75E1FF"
+			}
+		},
+		{
+			"scope": ["variable.other.readwrite.ts"],
+			"settings": {
+				"foreground": "#3EBDE0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": ["support.function.functional.prisma"],
+			"settings": {
+				"foreground": "#C74DED"
+			}
 		}
 	],
 	"semanticTokenColors": {
@@ -1608,10 +1712,7 @@
 			"parameter": "#ffffff",
 			"property": "#40BEE0",
 			"enum": "#EE5D43",
-			"enumMember": {
-				"foreground": "#40BEE0",
-				"bold": true
-			},
+			"enumMember": "#75e1ff",
 			"struct": "#B6FDEF",
 			"function": "#C74DED",
 			"method": "#C74DED",
