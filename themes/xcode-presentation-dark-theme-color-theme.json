@@ -81,7 +81,7 @@
 		"inputValidation.infoBorder": "#3a6395",
 		"inputValidation.warningBackground": "#de9237",
 		"inputValidation.warningBorder": "#de9237",
-		"list.activeSelectionBackground": "#444551",
+		"list.activeSelectionBackground": "#5e5e5e",
 		"list.activeSelectionForeground": "#ffffff",
 		"list.dropBackground": "#3a404e",
 		"list.focusBackground": "#444551",
@@ -161,7 +161,7 @@
 		//"activityBar.activeBorder": "#ffffff",
 		//"activityBar.dropBorder": "#ffffff",
 		//"activityBar.inactiveForeground": "#ffffff66",
-		//"banner.background": "#444551",
+		//"banner.background": "#5e5e5e",
 		//"banner.foreground": "#ffffff",
 		//"banner.iconForeground": "#00000000",
 		//"breadcrumb.activeSelectionForeground": "#e9e6eb",
@@ -380,6 +380,8 @@
 		//"gitlens.decorations.renamedForegroundColor": "#73c991",
 		//"gitlens.decorations.untrackedForegroundColor": "#73c991",
 		//"gitlens.decorations.worktreeView.hasUncommittedChangesForegroundColor": "#e2c08d",
+		//"gitlens.graphChangesColumnAddedColor": "#347d39",
+		//"gitlens.graphChangesColumnDeletedColor": "#c93c37",
 		//"gitlens.graphLane10Color": "#2ece9d",
 		//"gitlens.graphLane1Color": "#15a0bf",
 		//"gitlens.graphLane2Color": "#0669f7",
@@ -390,6 +392,20 @@
 		//"gitlens.graphLane7Color": "#f25d2e",
 		//"gitlens.graphLane8Color": "#f2ca33",
 		//"gitlens.graphLane9Color": "#7bd938",
+		//"gitlens.graphMinimapMarkerHeadColor": "#05e617",
+		//"gitlens.graphMinimapMarkerHighlightsColor": "#fbff0a",
+		//"gitlens.graphMinimapMarkerLocalBranchesColor": "#3087cf",
+		//"gitlens.graphMinimapMarkerRemoteBranchesColor": "#2b5e88",
+		//"gitlens.graphMinimapMarkerStashesColor": "#b34db3",
+		//"gitlens.graphMinimapMarkerTagsColor": "#6b562e",
+		//"gitlens.graphMinimapMarkerUpstreamColor": "#09ae17",
+		//"gitlens.graphScrollMarkerHeadColor": "#05e617",
+		//"gitlens.graphScrollMarkerHighlightsColor": "#fbff0a",
+		//"gitlens.graphScrollMarkerLocalBranchesColor": "#3087cf",
+		//"gitlens.graphScrollMarkerRemoteBranchesColor": "#2b5e88",
+		//"gitlens.graphScrollMarkerStashesColor": "#b34db3",
+		//"gitlens.graphScrollMarkerTagsColor": "#6b562e",
+		//"gitlens.graphScrollMarkerUpstreamColor": "#09ae17",
 		//"gitlens.gutterBackgroundColor": "#ffffff13",
 		//"gitlens.gutterForegroundColor": "#bebebe",
 		//"gitlens.gutterUncommittedForegroundColor": "#00bcf299",
@@ -409,6 +425,9 @@
 		//"inputOption.hoverBackground": "#5a5d5e80",
 		//"interactive.activeCodeBorder": "#23262e",
 		//"interactive.inactiveCodeBorder": "#444551",
+		//"interactive.responseActiveBackground": "#ffffff1a",
+		//"interactive.responseBackground": "#ffffff08",
+		//"interactive.responseBorder": "#ffffff1a",
 		//"issues.closed": "#cb2431",
 		//"issues.newIssueDecoration": "#ffffff48",
 		//"issues.open": "#3fb950",
@@ -430,7 +449,7 @@
 		//"listFilterWidget.shadow": "#14151a",
 		//"menu.background": "#5e5e5e",
 		//"menu.foreground": "#f0f0f0",
-		//"menu.selectionBackground": "#444551",
+		//"menu.selectionBackground": "#5e5e5e",
 		//"menu.selectionForeground": "#ffffff",
 		//"menu.separatorBackground": "#606060",
 		//"menubar.selectionBackground": "#5a5d5e50",
@@ -504,6 +523,8 @@
 		//"problemsErrorIcon.foreground": "#00000000",
 		//"problemsInfoIcon.foreground": "#00000000",
 		//"problemsWarningIcon.foreground": "#00000000",
+		//"profileBadge.background": "#4d4d4d",
+		//"profileBadge.foreground": "#ffffff",
 		//"pullRequests.closed": "#cb2431",
 		//"pullRequests.draft": "#6e7681",
 		//"pullRequests.merged": "#8957e5",
@@ -511,12 +532,13 @@
 		//"pullRequests.open": "#3fb950",
 		//"quickInput.background": "#202025",
 		//"quickInput.foreground": "#ffffff",
-		//"quickInputList.focusBackground": "#444551",
+		//"quickInputList.focusBackground": "#5e5e5e",
 		//"quickInputList.focusForeground": "#ffffff",
 		//"quickInputTitle.background": "#ffffff1b",
 		//"rust_analyzer.syntaxTreeBorder": "#ffffff",
 		//"sash.hoverBorder": "#746f77",
 		//"scm.providerBorder": "#454545",
+		//"search.resultsInfoForeground": "#d5ced9a6",
 		//"searchEditor.findMatchBackground": "#5e5e5ea8",
 		//"settings.checkboxBackground": "#5e5e5e",
 		//"settings.checkboxBorder": "#00000000",
@@ -609,6 +631,7 @@
 		//"terminal.findMatchBackground": "#5e5e5e",
 		//"terminal.findMatchHighlightBackground": "#5e5e5e",
 		//"terminal.foreground": "#cccccc",
+		//"terminal.hoverHighlightBackground": "#37394180",
 		//"terminal.inactiveSelectionBackground": "#3d435280",
 		//"terminal.selectionBackground": "#3d4352",
 		//"terminal.tab.activeBorder": "#ffffff",
@@ -643,7 +666,6 @@
 		//"tree.tableColumnsBorder": "#cccccc20",
 		//"tree.tableOddRowsBackground": "#d5ced90a",
 		//"walkthrough.stepTitle.foreground": "#ffffff",
-		//"welcomeOverlay.background": "#00000085",
 		//"welcomePage.progress.background": "#5e5e5e",
 		//"welcomePage.progress.foreground": "#3794ff",
 		//"welcomePage.tileBackground": "#202025",
@@ -1698,8 +1720,128 @@
 			"settings": {
 				"foreground": "#C74DED"
 			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.json",
+				"punctuation.definition.string.end.json",
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python",
+				"keyword.operator.arithmetic.python",
+				"string.quoted.double.html",
+				"punctuation.definition.string.end.html",
+				"punctuation.definition.string.begin.html",
+				"string.quoted.single.ts",
+				"punctuation.definition.string.begin.ts",
+				"punctuation.definition.string.end.ts",
+				"keyword.operator.dereference.rust",
+				"keyword.operator.borrow.and.rust"
+			],
+			"settings": {
+				"foreground": "#FF5F64"
+			}
+		},
+		{
+			"scope": [
+				"meta.brace",
+				"meta.function.parameters.python",
+				"support.type.property-name.json.comments",
+				"constant.character.format.placeholder.other",
+				"punctuation.definition.arguments",
+				"punctuation.definition.dict",
+				"punctuation.parenthesis.begin",
+				"punctuation.accessor",
+				"punctuation.parenthesis.end",
+				"keyword.operator.type.annotation.ts",
+				"punctuation.accessor.ts",
+				"punctuation.definition.block.ts",
+				"entity.other.attribute-name.html",
+				"variable.other.readwrite.alias.ts",
+				"keyword.operator.comparison.ts",
+				"keyword.operator.access.dot.rust",
+				"variable.other.rust"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"scope": "support.type.primitive",
+			"settings": {
+				"foreground": "#D3D3D3D3"
+			}
+		},
+		{
+			"scope": [
+				"meta.class.inheritance.python",
+				"entity.other.inherited-class.python",
+				"entity.other.ng-binding-name"
+			],
+			"settings": {
+				"foreground": "#DABBFF"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.unpacking.arguments.python",
+				"keyword.operator.unpacking.parameter.python",
+				"variable.language.this.ts",
+				"punctuation.decorator.ts",
+				"keyword.operator.new.ts",
+				"keyword.operator.expression.of.ts",
+				"keyword.operator.optional.ts",
+				"entity.other.ng-binding-name.template.html",
+				"keyword.operator.definiteassignment.ts",
+				"support.type.builtin.ts",
+				"entity.name.tag.html",
+				"meta.type.parameters.ts",
+				"storage.type.ts",
+				"storage.modifier.ts",
+				"keyword.operator.logical.ts",
+				"keyword.operator.expression.keyof.ts"
+			],
+			"settings": {
+				"foreground": "#F7439D"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.interface.ts",
+				"support.type.primitive.ts",
+				"entity.name.type.enum.prisma",
+				"entity.name.type.model.prisma",
+				"entity.name.type.config.prisma"
+			],
+			"settings": {
+				"foreground": "#75E1FF"
+			}
+		},
+		{
+			"scope": ["variable.other.readwrite.ts"],
+			"settings": {
+				"foreground": "#3EBDE0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": ["support.function.functional.prisma"],
+			"settings": {
+				"foreground": "#C74DED"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.comment.python",
+				"comment.line.number-sign.python",
+				"comment.typehint.directive.notation.python",
+				"comment.typehint.ignore.notation.python"
+			],
+			"settings": {
+				"foreground": "#D3D3D3D3"
+			}
 		}
 	],
+	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"rules": {
 			"*.mutable": {
